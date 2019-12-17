@@ -6,12 +6,14 @@ authors = ["Erik S. Carlsten <ecarlste@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 Django = "2.2.8"
 pytz = "2019.3"
 sqlparse = "0.3.0"
 
 [tool.poetry.dev-dependencies]
+pylint = "^2.4.4"
+black = "^19.10b0"
 
 [build-system]
 requires = ["poetry>=0.12"]
