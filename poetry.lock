@@ -54,7 +54,7 @@ description = "A high-level Python Web framework that encourages rapid developme
 name = "django"
 optional = false
 python-versions = ">=3.5"
-version = "2.2.8"
+version = "2.2.13"
 
 [package.dependencies]
 pytz = "*"
@@ -159,7 +159,7 @@ python-versions = "*"
 version = "1.4.0"
 
 [metadata]
-content-hash = "05562b58f2961bcc2d5b3d9215e4769a55d548f983c02b257796ed2c0d9b7ac9"
+content-hash = "e243ef63a86cd9ad8515ebc037a82634286d4582e442ccce2e552af0356a707a"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -180,8 +180,8 @@ click = [
     {file = "Click-7.0.tar.gz", hash = "sha256:5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"},
 ]
 django = [
-    {file = "Django-2.2.8-py3-none-any.whl", hash = "sha256:fa98ec9cc9bf5d72a08ebf3654a9452e761fbb8566e3f80de199cbc15477e891"},
-    {file = "Django-2.2.8.tar.gz", hash = "sha256:a4ad4f6f9c6a4b7af7e2deec8d0cbff28501852e5010d6c2dc695d3d1fae7ca0"},
+    {file = "Django-2.2.13-py3-none-any.whl", hash = "sha256:e8fe3c2b2212dce6126becab7a693157f1a441a07b62ec994c046c76af5bb66d"},
+    {file = "Django-2.2.13.tar.gz", hash = "sha256:84f370f6acedbe1f3c41e1a02de44ac206efda3355e427139ecb785b5f596d80"},
 ]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
