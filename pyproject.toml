@@ -1,15 +1,3 @@
-[tool.pdm.build]
-includes = []
-[build-system]
-requires = ["pdm-pep517>=1.0.0"]
-build-backend = "pdm.pep517.api"
-
-
-[tool.pdm.scripts]
-start = "python manage.py runserver"
-migrate = "python manage.py migrate"
-
-
 [project]
 name = "django-tutorial"
 version = "0.1.0"
@@ -22,7 +10,22 @@ requires-python = ">=3.9,<4.0"
 readme = "README.md"
 license = {text = "MIT"}
 
-[project.urls]
 
-[project.group.dev.dependencies]
-black = "^23.1.0"
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+
+[tool.pdm.build]
+includes = []
+
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.1.0",
+]
+
+
+[tool.pdm.scripts]
+start = "python manage.py runserver"
+migrate = "python manage.py migrate"
