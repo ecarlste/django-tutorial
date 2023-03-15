@@ -1,19 +1,27 @@
-[tool.poetry]
+[tool.pdm.build]
+includes = []
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+
+[tool.pdm.scripts]
+start = "python manage.py runserver"
+
+
+[project]
 name = "django-tutorial"
 version = "0.1.0"
 description = ""
-authors = ["Erik S. Carlsten <ecarlste@gmail.com>"]
-license = "MIT"
+authors = [
+    {name = "Erik S. Carlsten", email = "ecarlste@gmail.com"},
+]
+dependencies = ["django==4.1.7"]
+requires-python = ">=3.9,<4.0"
 readme = "README.md"
+license = {text = "MIT"}
 
-[tool.poetry.dependencies]
-python = "^3.9"
-django = "4.1.7"
+[project.urls]
 
-
-[tool.poetry.group.dev.dependencies]
+[project.group.dev.dependencies]
 black = "^23.1.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
