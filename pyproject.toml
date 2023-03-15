@@ -7,6 +7,7 @@ build-backend = "pdm.pep517.api"
 
 [tool.pdm.scripts]
 start = "python manage.py runserver"
+migrate = "python manage.py migrate"
 
 
 [project]
