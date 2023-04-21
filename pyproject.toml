@@ -9,7 +9,7 @@ license = "MIT"
 python = "^3.8"
 Django = "2.2.8"
 pytz = "2019.3"
-sqlparse = "0.3.0"
+sqlparse = "0.4.4"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
